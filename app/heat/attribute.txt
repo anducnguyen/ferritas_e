@@ -1,0 +1,39 @@
+1                 displayRelative            表示値を相対的に
+-10.0  0.0        gtmin  gtmax                 表示温度の最小値と最大値
+0.0   20e6      gmisesmin  gmisesmax        表示ミーゼス応力の最小値と最大値
+20.0  20.0        scaledUmax  scaledVmax       変位成分の描画時の最大値
+10.0  10.0        ox oy                        描画時のオフセット
+300.0  300.0      scaledWidth  scaledHeight    物体の描画時のサイズ
+0.25              thinLine              細線の線幅
+0.50              midLine               中線の線幅
+1.0               thickLine             太線の線幅
+-0.7  -0.5        offxg  offyg          要素番号を描画する際の位置のオフセット
+-0.5   0.0        offx   offy           節点番号を描画する際の位置のオフセット
+0.5               meshLineThickness     要素を表示するときの線の幅
+1                 elementNumberSwitch   要素番号を描画するしない(1,0)
+1                 nodeNumberSwitch      節点番号を描画するしない(1,0)
+1                 elementColorSwitch    要素分割図の要素を塗りつぶす
+1                 malElementColorSwitch 番号づけが間違っているとき要素を塗りつぶす
+0.0 0.9 0.9       elementColor(3)       要素分割図の要素の色
+0.5 0.0 0.0       malElementColor(3)    番号づけが間違っている要素の色
+0.5 0.5 0.5       meshLineColor(3)      要素の線の色
+1.75                 elNumberPhontSize     要素番号のフォントサイズ
+0.9 0.0 0.0       elNumberPhontColor    要素番号のフォントの色
+1.5                 ndNumberPhontSize     節点番号のフォントサイズ
+0.0 0.0 0.9       ndNumberPhontColor    節点番号のフォントの色
+8                 colorChartPhontSize   カラーチャートの文字のフォントサイズ
+1                 dispMeshShowSwitch    変形図にもとのメッシュも表示するかどうか
+0.5               dispMeshLineThickness 変形図に表示するメッシュの線幅
+1.0               dispLineThickness     変形図に表示する変形後の形状の線幅
+0.95 0.95 0.95       dipElmColor           変形図に表示する変形前のメッシュの色
+0.0 0.0 0.0       dispMeshLineColor     変形図に表示するメッシュの色
+1.0 0.0 0.0       dispLineColor         変形図に表示する変形後の形状の色
+1                 mizesMeshShowSwitch   ミーゼス応力図にもとのメッシュも表示するかどうか
+0.9  0.0  0.0     elNumberColor(3)      要素番号の表示色
+0.0  0.0  0.9     ndNumberColor(3)      節点番号の表示色
+0.0  0.1  0.2  0.3  0.4  0.5  0.6  0.7  0.8  0.9  1.0     pt(1)〜pt(11)
+0.0  0.0  0.0  0.0  0.0  0.0  0.8  1.0  1.0  1.0  1.0     red(6)
+0.0  0.0  0.2  1.0  1.0  1.0  1.0  1.0  1.0  0.8  0.0     grn(6) 
+0.5  1.0  1.0  1.0  0.5  0.0  0.0  0.0  0.0  0.0  0.0     blu(6)
+1.0  0.5  1.0         overred   overgrn   overblu
+0.1  0.1  0.1         underred  undergrn  underblu
